@@ -1,0 +1,92 @@
+
+body{
+    font-family: Verdana, Georgia, Arial; 
+	font-size: small;
+	background-color: #fbf9f0;    
+}
+
+.BodyContainer{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 100%;
+    min-width: 650px;
+
+}
+
+.pagetitle	{
+    position: fixed;
+	background-color: #fbf9f0;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	height: 39px;
+	width: 100%;
+	padding-top: 28px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	text-align: center;
+	border-bottom: 1px solid black;
+ }
+
+ 
+ h1, h2{
+	width: 50%;
+	height: 60px; 
+	margin: 0;
+	padding: 0;
+	display: inline;
+ }
+h3	{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+
+.leftpanel {
+    z-index: 0;
+    position: absolute; 
+    left: 0px;
+    top: 80px;
+    width: 200px;
+    padding: 10px;
+    background-color: #f6fbf0;
+    color: black;
+    min-height: 100%;
+}
+
+.middlepanel {
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 80px;
+    color: black;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: black;
+    padding: 0px;
+    min-height: 100%;
+    background-color: #fbf9f0;
+    font-family: 'Lora', serif;
+    font-size: 50;
+}
+
+.rightpanel
+{
+    z-index: 0;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 200px;
+    padding: 10px;
+    background-color: #f6fbf0;
+    color: black;
+    min-height: 100%
+}
+
+p{margin-bottom: 8;}
+h4{ margin-top:0;}
