@@ -2,10 +2,17 @@
 <html>
 
 <head>
+<style>
+    .containerr{
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+</style>
 <title> Contact </title>
 
 <link rel="stylesheet" href="styles.css" />
 
+<div class="containerr">
 <script>
 function processForm()
 {
@@ -53,43 +60,41 @@ function processForm()
 
 <div class="content">
     <div class="contactForm">
-    <h2> Get ahold of me! </h2>
 
-    <h3> E-mail </h3>
 
-    <dl>
-    <dt><b> University E-mail </b></dt>
-    <dd><a href="mailto:jacquelineri@usf.edu">Jacquelineri@usf.edu</a> </dd>
+    <h2> E-mail </h2>
 
-    <dt><b> Personal E-mail </b></dt>
-    <dd><a href="mailto:jacquelineriosr@yahoo.com">jacquelineriosr@yahoo.com</a> </dd>
+    <p><b>University E-mail: </b> <a href="mailto:jacquelineri@usf.edu">Jacquelineri@usf.edu</a> </p> 
+
+    <p><b> Personal E-mail: </b> <a href="mailto:jacquelineriosr@yahoo.com">jacquelineriosr@yahoo.com</a></p>  
+
 
 
     </dl>
+    <h2> Phone </h2>
+    <p><b>Personal Phone:</b> 773-993-3732</p> 
+    <p><b>Work Phone:</b> 773-321-9569</p> 
 
-
-    </dl>
-    <h3> Phone </h3>
+    <h2> Hours </h2>
     <table>
     <tr>
-    <th> Phone </th>
-    <th> Week Days </th>
-    <th> Hours </th> </tr>
-    <tr> <th> Personal Phone: 773-993-3732 </th> <th> <center> Sun-Sat </center> </th> <th>  8:00 AM-8:00 PM </th></tr>
-    <tr> <th>  Work Phone: 773-321-9569 </th> <th> <center> Mon-Sat </center> </th> <th>  9:00 AM-5:00 PM </th> </tr>
+  
+    <tr>  <th> <center> Sun-Sat </center> </th> <th>  8:00 AM-8:00 PM </th></tr>
+    <tr> <th></th></tr>
+    <tr>  <th> <center> Mon-Sat </center> </th> <th>  9:00 AM-5:00 PM </th> </tr>
 
 
     </table>
 
- 
+ <p></p>
+ <p> </p>
 
 <form name="thisForm">
 <table>
 
     <tr>
-        <th colspan="2"> Use this Form to Contact Me! </th>
+        <th colspan="2"> Please fill this out for any general questions! I'll be in touch within 48 hours. </th>
     </tr>
-
     <tr>
         <td>Fullname:</td> <td><input type="text" size="40" name="fullname"> </td>
     </tr>
@@ -129,19 +134,13 @@ function processForm()
         <td> <br> <br> </td>
     </tr>
 
-    <tr>
-        <th colspan="2">If your message passes inspection, it will be displayed below:</th>
-    </tr>
-
-    <tr> 
-    <td valign="top">Message Sent: </td>
-    <td><textarea name="sentMessage" rows="12" cols="40" readonly></textarea></td>
-    </tr>
+ 
 
 </table>
 
 </form>
 
+</div>
 </div>
 </div>
 

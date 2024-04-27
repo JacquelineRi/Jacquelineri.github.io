@@ -220,3 +220,7 @@ a:hover {
 .contactForm{
 	padding-left: 80px;
 }
+
+th {
+	font-weight: normal;
+}
