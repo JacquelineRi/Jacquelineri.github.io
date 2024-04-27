@@ -73,6 +73,14 @@ hr {
 	font-family: 'Lora', serif;
 	font-size: 50px;
 }
+.aboutme{
+	padding-left: 40%;
+	padding-top: 180px;
+	height: 60px;
+	width: 600px;
+	font-family: 'Lora', serif;
+	font-size: 50px;
+}
 .contentheading{
 	font-family: 'Lora', serif;
 	font-size: 40px;
@@ -82,7 +90,8 @@ hr {
 }
 .summary{
 	width: 900px;
-	padding-left: 100px;
+	padding-left: 220px;
+	font-family: 'Lora', serif;
 	font-size: 20px;
 	padding-top: 5px;
 }
@@ -135,7 +144,7 @@ hr {
 .rightres{
 	padding-top: 40px;
 	padding-left: 100px;
-	width: 600px;
+	width: 500px;
 	float: left;
 }
 
